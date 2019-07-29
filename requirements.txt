@@ -1,0 +1,10 @@
+jupyterlab
+matplotlib
+numpy
+openpyxl
+pandas
+scipy
+seaborn
+tqdm
+
+git+https://github.com/ylytkin/myutils

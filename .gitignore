@@ -1,0 +1,21 @@
+# python
+
+**/__pycache__
+
+# jupyter
+
+**/.ipynb_checkpoints
+
+# ide
+
+**/.idea
+**/.vscode
+
+# mac
+
+**/.DS_Store
+
+# other
+
+notebooks
+**/.dumpster

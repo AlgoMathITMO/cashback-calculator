@@ -1,0 +1,352 @@
+{
+    "tinkoff_black": {
+        "card_name": "Black",
+        "bank_id": "tinkoff",
+        "url": "https://www.tinkoff.ru/cards/debit-cards/tinkoff-black/",
+        "service_cost": {
+            "cost": 99,
+            "free_service_conditions": {
+                "min_balance": 30000
+            }
+        },
+        "profit_type": "cashback",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0.01
+            }
+        ]
+    },
+    "tinkoff_drive": {
+        "card_name": "Drive",
+        "bank_id": "tinkoff",
+        "url": "https://www.tinkoff.ru/cards/debit-cards/drive/",
+        "service_cost": {
+            "cost": 82.5,
+            "free_service_conditions": {
+                "min_balance": 150000
+            }
+        },
+        "advice": [
+            "driving"
+        ],
+        "profit_type": "cashback",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0.01,
+                "special_rates": {
+                    "fuel": 0.1,
+                    "driving": 0.05
+                }
+            }
+        ]
+    },
+    "raiffeisen_cashback": {
+        "card_name": "Cashback Card",
+        "bank_id": "raiffeisen",
+        "url": "https://www.raiffeisen.ru/retail/cards/debit/cashback-card-multi-field/",
+        "service_cost": {
+            "cost": 0
+        },
+        "profit_type": "cashback",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0.015
+            }
+        ]
+    },
+    "raiffeisen_gold": {
+        "card_name": "Gold",
+        "bank_id": "raiffeisen",
+        "url": "https://www.raiffeisen.ru/retail/cards/debit/mc-gold-package/",
+        "service_cost": {
+            "cost": 0
+        },
+        "profit_type": "cashback",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0
+            },
+            {
+                "amount_spent": 30000,
+                "general_rate": 0,
+                "special_rates": {
+                    "fuel": 0.05
+                },
+                "max_profit": 3000
+            }
+        ]
+    },
+    "bspb_classic": {
+        "card_name": "Classic",
+        "bank_id": "bspb",
+        "url": "https://www.bspb.ru/retail/cards/standard-classic/",
+        "service_cost": {
+            "cost": 41
+        },
+        "profit_type": "yarko",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0.005
+            }
+        ]
+    },
+    "bspb_visa-cashback": {
+        "card_name": "Cashback",
+        "bank_id": "bspb",
+        "url": "https://www.bspb.ru/retail/cards/cashback/",
+        "service_cost": {
+            "cost": 299,
+            "free_service_conditions": {
+                "amount_spent": 30000,
+                "min_balance": 50000,
+                "salary": 70000
+            }
+        },
+        "profit_type": "cashback",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0.01,
+                "special_rates": {
+                    "restaurants": 0.1,
+                    "fuel": 0.05
+                },
+                "max_profit": 2000
+            }
+        ]
+    },
+    "bspb_pensionary": {
+        "card_name": "Pensionary",
+        "bank_id": "bspb",
+        "url": "https://www.bspb.ru/retail/cards/pensionary/",
+        "service_cost": {
+            "cost": 0
+        },
+        "profit_type": "cashback",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0,
+                "special_rates": {
+                    "pharmacies": 0.01,
+                    "groceries": 0.01
+                }
+            }
+        ]
+    },
+    "bspb_yarkaya": {
+        "card_name": "MC World",
+        "bank_id": "bspb",
+        "url": "https://www.bspb.ru/retail/cards/mcworld/",
+        "service_cost": {
+            "cost": 99,
+            "free_service_conditions": {
+                "amount_spent": 30000
+            }
+        },
+        "profit_type": "yarko",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0.01
+            },
+            {
+                "amount_spent": 50000,
+                "general_rate": 0.02
+            }
+        ]
+    },
+    "bspb_ekp": {
+        "card_name": "EKP",
+        "bank_id": "bspb",
+        "url": "https://www.bspb.ru/retail/cards/ekp/",
+        "service_cost": {
+            "cost": 0
+        },
+        "advice": [
+            "theaters",
+            "spb"
+        ],
+        "profit_type": "yarko",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0.005,
+                "special_rates": {
+                    "fuel": 0.01,
+                    "parking_carwash": 0.01,
+                    "restaurants": 0.01
+                }
+            },
+            {
+                "amount_spent": 15000,
+                "general_rate": 0.01,
+                "special_rates": {
+                    "fuel": 0.03,
+                    "parking_carwash": 0.03,
+                    "restaurants": 0.03
+                }
+            },
+            {
+                "amount_spent": 50000,
+                "general_rate": 0.01,
+                "special_rates": {
+                    "fuel": 0.05,
+                    "parking_carwash": 0.05,
+                    "restaurants": 0.05
+                }
+            }
+        ]
+    },
+    "bspb_travel": {
+        "card_name": "Travel",
+        "bank_id": "bspb",
+        "url": "https://www.bspb.ru/retail/cards/travel/",
+        "service_cost": {
+            "cost": 249,
+            "free_service_conditions": {
+                "amount_spent": 30000,
+                "min_balance": 100000
+            }
+        },
+        "advice": [
+            "travel"
+        ],
+        "profit_type": "mili",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0.015,
+                "max_profit": 6000
+            }
+        ]
+    },
+    "alfabank_cashback": {
+        "card_name": "Cashback",
+        "bank_id": "alfabank",
+        "url": "https://alfabank.ru/everyday/debit-cards/cash-back-card/",
+        "service_cost": {
+            "cost": 100,
+            "free_service_conditions": {
+                "amount_spent": 10000,
+                "min_balance": 30000
+            }
+        },
+        "profit_type": "cashback",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0
+            },
+            {
+                "amount_spent": 10000,
+                "general_rate": 0.005,
+                "special_rates": {
+                    "fuel": 0.05,
+                    "restaurants": 0.025
+                },
+                "max_profit_per_category": 5000
+            },
+            {
+                "amount_spent": 70000,
+                "general_rate": 0.01,
+                "special_rates": {
+                    "fuel": 0.1,
+                    "restaurants": 0.05
+                },
+                "max_profit_per_category": 5000
+            },
+            {
+                "amount_spent": 100000,
+                "general_rate": 0.01,
+                "special_rates": {
+                    "fuel": 0.1,
+                    "restaurants": 0.05
+                },
+                "max_profit_per_category": 7000
+            }
+        ]
+    },
+    "alfabank_alfa-carta": {
+        "card_name": "Alfacard",
+        "bank_id": "alfabank",
+        "url": "https://alfabank.ru/everyday/debit-cards/alfacard/",
+        "service_cost": {
+            "cost": 100,
+            "free_service_conditions": {
+                "amount_spent": 10000,
+                "min_balance": 30000
+            }
+        },
+        "profit_type": "cashback",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0
+            },
+            {
+                "amount_spent": 10000,
+                "general_rate": 0.015
+            },
+            {
+                "amount_spent": 100000,
+                "general_rate": 0.02
+            }
+        ]
+    },
+    "alfabank_next": {
+        "card_name": "Next",
+        "bank_id": "alfabank",
+        "url": "https://alfabank.ru/everyday/debit-cards/next/",
+        "service_cost": {
+            "cost": 50,
+            "free_service_conditions": {
+                "amount_spent": 5000,
+                "min_balance": 30000
+            }
+        },
+        "profit_type": "cashback",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0
+            },
+            {
+                "amount_spent": 5000,
+                "general_rate": 0,
+                "special_rates": {
+                    "restaurants": 0.05,
+                    "cinema": 0.05
+                },
+                "max_profit": 2000
+            }
+        ]
+    },
+    "sberbank_karta-s-bolshimi-bonusami": {
+        "card_name": "Large Bonuses Card",
+        "bank_id": "sberbank",
+        "url": "https://www.sberbank.ru/ru/person/bank_cards/debit/karta-s-bolshimi-bonusami",
+        "service_cost": {
+            "cost": 408
+        },
+        "profit_type": "spasibo",
+        "profit": [
+            {
+                "amount_spent": 0,
+                "general_rate": 0.01,
+                "special_rates": {
+                    "fuel": 0.095,
+                    "taxi": 0.095,
+                    "restaurants": 0.045,
+                    "groceries": 0.01
+                },
+                "max_profit_per_category": 2000
+            }
+        ]
+    }
+}
